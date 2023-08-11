@@ -10,7 +10,7 @@ CSS: linguagem de estilos utilizada para definir cores, fontes, tamanhos, posici
 
 Javascript: linguagem de programação utilizada para deixar a página com mais movimento, podendo atualizar elementos dinamicamente e lidar melhor com dados enviados e recebidos na página.
 
-### Estrutua Básica HTML
+### Estrutura Básica HTML
 
 ## HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags
 
