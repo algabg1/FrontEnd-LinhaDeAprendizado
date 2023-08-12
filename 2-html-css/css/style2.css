@@ -1,7 +1,11 @@
 body{
     background-color: #000000; 
     color: #F6F6F6; 
-
+    height: 100vh;
+    /*box-sizing: responsável por como a largura e a
+    altura totais de um elemento são calculadas.*/
+    box-sizing: border-box;
+    /*border-box: adequa ao tamanho do conteúdo*/
 }
 
 /*
@@ -13,4 +17,18 @@ classe, pode estilizar separadamente.
 */
 .destaque-titulo{
     color: #22D4FD;
+}
+
+/*
+para não precisa escrever todos as tags e classes
+Para resetar os padrões dos navegadores de forma
+simples utilizamos as propriedades margin, que define 
+a área de margem nos quatro lados do elemento (cima,
+direita, baixo, esquerda), e padding, que define a
+área de preenchimento interna nos mesmos quatro lados
+do elemento, ambas com valor igual à 0.
+*/
+*{
+    margin: 0;
+    padding: 0;
 }
