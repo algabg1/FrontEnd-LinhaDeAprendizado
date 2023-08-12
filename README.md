@@ -38,6 +38,18 @@ Tags semânticas são tags que possuem um significado, que dão sentido a inform
 
 ## HTML e CSS: Classes, posicionamento e Flexbox
 
+- `margin` (margem): o maior e mais externo retângulo, que está na cor laranja-claro.
+
+- `border` (borda): está dentro do retângulo da margem, sendo proporcionalmente menor a ele, e é da cor amarelo claro.
+
+- `padding` (espaçamento): retângulo verde-claro que está dentro do retângulo da borda, também proporcionalmente menor a ele. Área em torno do conteúdo.
+
+- `conteúdo`: um retângulo azul-claro que está dentro do retângulo de espaçamento e é proporcionalmente menor que ele. Onde texto e imagens aparecem.
+
+![image](image.png)
+
+Se não são definidos, há um padrão que é criado automaticamente para a página.
+
 ### Flexbox CSS
 
 ## HTML e CSS: cabeçalho, footer e variáveis CSS

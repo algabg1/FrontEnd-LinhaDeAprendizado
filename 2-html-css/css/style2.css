@@ -1,0 +1,16 @@
+body{
+    background-color: #000000; 
+    color: #F6F6F6; 
+
+}
+
+/*
+estilo da classe
+difere da tag pois especifica melhor
+se usa strong{} todos que são vão receber as
+caracteristicas definidas abaixo, mas ao definir a
+classe, pode estilizar separadamente.
+*/
+.destaque-titulo{
+    color: #22D4FD;
+}
