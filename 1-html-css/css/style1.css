@@ -1,0 +1,11 @@
+/*para tudo que está no body*/
+body{
+    background-color: #000000; /*cor de fundo*/
+    color: #F6F6F6; /*cor do texto*/
+
+}
+
+/*para tudo que é <strong>*/
+strong{
+    color: #22D4FD;
+}
