@@ -52,6 +52,28 @@ Se não são definidos, há um padrão que é criado automaticamente para a pág
 
 ### Flexbox CSS
 
+Os filhos de um elemento com Flexbox podem se posicionar em qualquer direção e pode ter dimensões flexíveis para se adaptar.
+
+```
+  .flex-container {
+    display: flex;
+    flex-direction: row | row-reverse | column | column-reverse;
+    flex-wrap: nowrap | wrap | wrap-reverse;
+    flex-flow: row nowrap | row wrap | column nowrap | column wrap;
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+    align-items: stretch | flex-start | flex-end | center | baseline;
+    align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+    order: <número>; /* o valor padrão é 0 */
+    flex-grow: <numero>; /* o valor default (padrão) é 0 */
+    flex-shrink: <número>; /* o valor padrão é 0 */
+    flex-basis: flex-basis:  | auto; /* o valor padrão é auto */
+    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+  }
+```
+
+Para que as propriedades funcionem nos elementos-filhos, as pais devem ter propriedade display: flex;.
+
 ## HTML e CSS: cabeçalho, footer e variáveis CSS
 
 ## HTML e CSS: trabalhando com responsividade e publicação de projetos

@@ -43,11 +43,14 @@ do elemento, ambas com valor igual à 0.
     justify-content: space-between;
     /*cria-se um espaço entre os elementos,
     os mais na ponta ficam o mais distante possível*/
-    margin: 10%;
+    margin: 10% 15%;
 }
 
 .apresentacao-conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao-conteudo-titulo{
