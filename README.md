@@ -76,6 +76,8 @@ Para que as propriedades funcionem nos elementos-filhos, as pais devem ter propr
 
 ## HTML e CSS: cabeçalho, footer e variáveis CSS
 
+
+
 ## HTML e CSS: trabalhando com responsividade e publicação de projetos
 
 ### Srcset
