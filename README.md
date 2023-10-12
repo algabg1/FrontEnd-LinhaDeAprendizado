@@ -76,7 +76,37 @@ Para que as propriedades funcionem nos elementos-filhos, as pais devem ter propr
 
 ## HTML e CSS: cabeçalho, footer e variáveis CSS
 
+```
+<head>
+</head>
 
+<body>
+  <header>
+    <nav>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+```
+
+### Navegando entre páginas
+
+```
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+```
 
 ## HTML e CSS: trabalhando com responsividade e publicação de projetos
 
