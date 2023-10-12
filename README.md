@@ -108,6 +108,26 @@ Para que as propriedades funcionem nos elementos-filhos, as pais devem ter propr
     </header>
 ```
 
+### Utilizando :root
+
+Definindo variáveis do projeto:
+
+```
+:root{
+  --nome-cor: #cor;
+  --nome-fonte: 'fonte';
+}
+```
+
+Utilizando as variáveis:
+
+```
+body{
+  background-color: var(--nome-cor);
+  font-family: var(--nome-fonte);
+}
+```
+
 ## HTML e CSS: trabalhando com responsividade e publicação de projetos
 
 ### Srcset
