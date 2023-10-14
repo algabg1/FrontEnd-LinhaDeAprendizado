@@ -130,6 +130,31 @@ body{
 
 ## HTML e CSS: trabalhando com responsividade e publicação de projetos
 
+### Unidades de medida
+
+Comprimentos absolutos:
+- `cm` (centímetros)
+- `mm` (melímetros)
+- `in` (inches/polegadas)
+- `px` (pixels): o píxel do CSS NÃO é realmente um píxel da tela do dispositivo (hardware), e sim o que chamamos de píxel de referência que geralmente é maior do que o píxel real. O que acaba por torná-lo numa medida abstrata onde é necessário controlar o mapeamento desse píxel de referência para o píxel do hardware
+- `pt` (points): geralmente espera-se que essa medida seja utilizada em folhas de estilo para impressões, quando se precisa ter certeza do tamanho da fonte utilizada. Não é recomendada para a estilização em tela
+- `pc` (paica)
+
+Comprimentos relativos:
+- `em` (ems): muda para os elementos filhos de acordo com o tamanho da fonte (font-size) do elemento pai
+- `rem` (rems, "root em"): o rem está relacionado com o tamanho da fonte do elemento root (raiz), no caso, a tag
+- `%` (porcentagem)
+- `ex` (x-height): essa unidade não se relaciona com o tamanho da fonte (font-size), mas com qual fonte está sendo utilizada naquele momento (font-family)
+- `ch` (character unit)
+- `vw` (viewport width): viewport nada mais é que a área visível de uma página web para o seu usuário, essa viewport pode variar de acordo com o dispositivo, sendo menor em celulares e maior em desktops. Essa unidade se relaciona diretamente com a largura da viewport, onde 1vw representa 1% do tamanho da largura dessa área visível
+- `vh` (viewport height): funciona da mesma forma que o vw, porém dessa vez, a referência será a altura e não a largura
+- `vmin/vm` (viewport minimun): utilizará como base a menor dimensão da viewport (altura x largura)
+- `vmax` (viewport maximum): terá como valor de referência a maior dimensão da viewport
+
+Site que verifica o suporte das medidas nos navegadores: [Can I Use](https://caniuse.com/?search=vw)
+
+Conversão de valores para adaptar nos projetos: [nekoCalc](https://nekocalc.com/px-to-rem-converter)
+
 ### Srcset
 
 ## HTML e CSS: praticando HTML/CSS
