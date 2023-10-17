@@ -184,7 +184,9 @@ Podemos definir uma largura máxima de “480px” para o celular: `@media (max-
 
 Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: `@media (min-width: 480px ) and (max-width: 800px)`, nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
 
-### Srcset
+### [Srcset: Trabalhando com imagens responsivas](https://www.alura.com.br/artigos/srcset-trabalhando-imagens-responsivas)
+
+Quando queremos utilizar imagens diferentes em situações diferentes, utilizamos a tag `<picture>` com as tags `<source>`. Neste caso temos maior controle de quando uma imagem é mostrada na página e quando temos imagens iguais com resoluções diferentes utilizamos a propriedade `srcset`.
 
 ## HTML e CSS: praticando HTML/CSS
 
