@@ -190,4 +190,8 @@ Quando queremos utilizar imagens diferentes em situações diferentes, utilizamo
 
 ## HTML e CSS: praticando HTML/CSS
 
+[Projeto base](https://www.figma.com/file/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?type=design&node-id=1-77&mode=design&t=QznqAWrOJA3dQhFZ-0)
+
+
+
 ## HTML e CSS: responsividade com mobile-first
