@@ -155,6 +155,35 @@ Site que verifica o suporte das medidas nos navegadores: [Can I Use](https://can
 
 Conversão de valores para adaptar nos projetos: [nekoCalc](https://nekocalc.com/px-to-rem-converter)
 
+### Usando Media Queries
+
+[Documentação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
+```
+@media (parâmetro) {
+  configurações
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+}
+```
+
+Podemos definir uma largura máxima de “480px” para o celular: `@media (max-width: 480px)`, e em outra media query definir uma largura máxima de “800px” para os tablets: `@media (max-width: 800px)`, e então atribuímos os ajustes necessários dentro de cada media query, dessa forma teremos nosso site 100% responsivo.
+
+Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: `@media (min-width: 480px ) and (max-width: 800px)`, nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
+
 ### Srcset
 
 ## HTML e CSS: praticando HTML/CSS
