@@ -34,7 +34,7 @@ Tags semânticas são tags que possuem um significado, que dão sentido a inform
 
 ![image](https://github.com/algabg1/FrontEnd-LinhaDeAprendizado/assets/101957321/24e740d6-5704-4599-b55d-f96e968bab9a)
 
-## [1-html-css](https://github.com/algabg1/FrontEnd-LinhaDeAprendizado/tree/main/1-html-css): ambientes de desenvolvimento, estrutura de arquivos e tags
+## HTML E CSS: ambientes de desenvolvimento, estrutura de arquivos e tags
 
 ## HTML e CSS: Classes, posicionamento e Flexbox
 
