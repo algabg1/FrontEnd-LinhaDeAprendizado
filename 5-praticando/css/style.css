@@ -26,6 +26,8 @@ body{
 
 .conteiner{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .conteiner-botao{
@@ -36,4 +38,9 @@ body{
     color: var(--branco-principal);
     font-family: var(--fonte-secundaria);
     display: block;
+    text-align: center;
+}
+
+.botao-secundario{
+    
 }
