@@ -211,6 +211,27 @@ Operadores Lógicos:
 
 ## JavaScript: Arrays, Loop e Estilo
 
+Array:
+```
+var variavel = document.querySelectorAll("selecionado");
+for(var i=0; i<variavel.length; i++>){
+  ...
+}
+```
+
+Estilo:
+arquivo.css
+```
+.nova-classe{
+  estilos da classe
+}
+```
+
+arquivo.js
+```
+variavel.classList.add("nova-classe");
+```
+
 ## JavaScript: Eventos, Formulários e Criando Elementos
 
 ## Boas práticas com JavaScript
