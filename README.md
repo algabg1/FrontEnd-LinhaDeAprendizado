@@ -195,3 +195,29 @@ Quando queremos utilizar imagens diferentes em situações diferentes, utilizamo
 
 
 ## HTML e CSS: responsividade com mobile-first
+
+## JavaScript: Variáveis e operadores
+
+Delharação de variável
+```
+var nomeDaVariavel;
+```
+
+Operadores:
+```
+
+```
+
+## JavaScript: Arrays, Loop e Estilo
+
+## JavaScript: Eventos, Formulários e Criando Elementos
+
+## Boas práticas com JavaScript
+
+## JavaScript: Validação de Formulários
+
+## JavaScript: Remoção, Delegação e Animação
+
+## JavaScript: Filtrando uma tabela
+
+## Buscando pacientes com AJAX
