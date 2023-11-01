@@ -203,9 +203,10 @@ Delharação de variável
 var nomeDaVariavel;
 ```
 
-Operadores:
+Operadores Lógicos:
 ```
-
+|| //ou
+&& //e
 ```
 
 ## JavaScript: Arrays, Loop e Estilo
