@@ -9,12 +9,6 @@
 
 	</head>
 	<body>
-
-		<script>
-			alert("olá, mundo");
-			console.log("oi, mundo");
-		</script>
-
 		<header>
 			<div class="container">
 				<h1>Aparecida Nutrição</h1>
@@ -78,5 +72,15 @@
 			</section>
 		</main>
 
+		<script>
+			//alert("olá, mundo");
+			console.log("oi, mundo");
+			//console.log(document.querySelector("h1"));
+			var titulo = document.querySelector("h1");
+			console.log(titulo); //imprime a variavel
+			console.log(titulo.textContent); //imprime o conteudo da variavel
+			titulo.textContent = "Aparecida Nutricionista"; //alterando o conteudo da variavel
+		</script>
+		
 	</body>
 </html>
