@@ -234,6 +234,8 @@ variavel.classList.add("nova-classe");
 
 ## JavaScript: Eventos, Formulários e Criando Elementos
 
+
+
 ## Boas práticas com JavaScript
 
 ## JavaScript: Validação de Formulários
